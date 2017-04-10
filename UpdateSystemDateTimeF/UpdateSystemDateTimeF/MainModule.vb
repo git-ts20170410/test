@@ -9,6 +9,7 @@
             AppFlag = True
         End If
 
+        ''アプリケーション起動
         Application.Run(New Form1)
 
     End Sub
