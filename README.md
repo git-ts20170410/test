@@ -1,2 +1,2 @@
-# test
-test project
+# Gitを使ってみる
+HTTPを使用した時刻合わせプログラム
