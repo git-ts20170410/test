@@ -85,7 +85,6 @@
                                            System.Globalization.DateTimeStyles.None)
 
             ''OSの時刻を更新
-            'システム日付を2005/1/2にする
             Today = New DateTime(dtServer.Year, dtServer.Month, dtServer.Day, 0, 0, 0)
 
             'システム時刻を6:15:30にする
