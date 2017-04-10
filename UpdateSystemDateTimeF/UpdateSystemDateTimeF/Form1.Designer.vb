@@ -28,6 +28,7 @@ Partial Class Form1
         Me.txtURL = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label2
@@ -57,9 +58,9 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(106, 57)
+        Me.Button1.Location = New System.Drawing.Point(52, 61)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(128, 37)
+        Me.Button1.Size = New System.Drawing.Size(116, 33)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "時計合わせ"
         Me.Button1.UseVisualStyleBackColor = True
@@ -73,11 +74,21 @@ Partial Class Form1
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "サーバ"
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(213, 61)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(116, 33)
+        Me.Button2.TabIndex = 11
+        Me.Button2.Text = "キャンセル"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(339, 101)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtResult)
         Me.Controls.Add(Me.txtURL)
@@ -95,5 +106,6 @@ Partial Class Form1
     Friend WithEvents txtURL As System.Windows.Forms.TextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 
 End Class

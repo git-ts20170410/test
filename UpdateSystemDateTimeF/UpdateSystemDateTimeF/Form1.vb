@@ -103,5 +103,14 @@
 
     End Function
 
-
+    ''' <summary>
+    ''' キャンセルボタンクリックイベント
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        ''アプリケーション終了
+        Application.Exit()
+    End Sub
 End Class
