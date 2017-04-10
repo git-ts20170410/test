@@ -84,10 +84,10 @@
                                            System.Globalization.DateTimeFormatInfo.InvariantInfo, _
                                            System.Globalization.DateTimeStyles.None)
 
-            ''OSの時刻を更新
+            ''システム日時の日付を更新
             Today = New DateTime(dtServer.Year, dtServer.Month, dtServer.Day, 0, 0, 0)
 
-            'システム時刻を6:15:30にする
+            ''システム日時の時刻を更新
             TimeOfDay = New DateTime(dtServer.Year, dtServer.Month, dtServer.Day, dtServer.Hour, dtServer.Minute, dtServer.Second)
 
             ''結果を表示
