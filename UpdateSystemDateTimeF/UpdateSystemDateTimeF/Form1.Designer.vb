@@ -22,6 +22,7 @@ Partial Class Form1
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtResult = New System.Windows.Forms.TextBox()
         Me.txtURL = New System.Windows.Forms.TextBox()
@@ -82,6 +83,7 @@ Partial Class Form1
         Me.Controls.Add(Me.txtURL)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "時計合わせ"
         Me.ResumeLayout(False)
